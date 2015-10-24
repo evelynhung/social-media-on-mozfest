@@ -19,7 +19,7 @@ function flickr_get_sizes(id) {
 
 function flickr_search_images(tags) {
   var tag = encodeURIComponent(tags.join(","));
-  var number = 20;
+  var number = 25;
   var sort = "date-taken-desc";
   var api = "https://api.flickr.com/services/rest/?method=flickr.photos.search";
   api += `&api_key=${apikey}&tags=${tag}&per_page=${number}&sort=${sort}&format=json&nojsoncallback=1`;
@@ -50,7 +50,7 @@ function append_images_from_flickr(flickr) {
       calculateLayout(250);
     });
   });
-  document.body.appendChild(div);
+  document.getElementById('flickr').appendChild(div);
 }
 
 window.addEventListener('load', () => {

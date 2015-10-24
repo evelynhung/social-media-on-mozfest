@@ -14,9 +14,26 @@
       outline: 1px solid rgba(0, 0, 0, 0.1);
       outline-offset: -1px;
     }
+    #flickr {
+      float: left;
+      width: calc(100% - 400px);
+      height: 1000px;
+      overflow: hidden;
+      background: #333;
+    }
+    #twitter {
+      height: 1000px;
+      float: right;
+      width: 400px;
+    }
   </style>
 </head>
 <body>
+  <div id="flickr"></div>
+  <div id="twitter">
+  <a class="twitter-timeline" href="https://twitter.com/hashtag/MozFest" data-widget-id="657997296177512448">#MozFest Tweets</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  </div>
 </body>
 <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
 <script src= "algo.js"></script>

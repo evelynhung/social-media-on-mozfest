@@ -22,7 +22,7 @@ function setHeight(images, height) {
 }
 
 function calculateLayout(max_height) {
-  var windowWidth = window.innerWidth - 50;
+  var windowWidth = $('#flickr').width() - 10;
 
   var n = 0;
   var images = $('img');
