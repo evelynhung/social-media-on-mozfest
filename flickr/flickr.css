@@ -1,0 +1,25 @@
+body, html { 
+  margin: 0; 
+  padding: 5px 0; 
+  background: #333
+}
+
+img {
+  margin: 2px 3px 3px 2px; 
+  outline: 1px solid rgba(0, 0, 0, 0.1);
+  outline-offset: -1px;
+}
+
+#flickr {
+  float: left;
+  width: calc(100% - 400px);
+  height: 1000px;
+  overflow: hidden;
+  background: #333;
+}
+
+#twitter {
+  height: 1000px;
+  float: right;
+  width: 400px;
+}

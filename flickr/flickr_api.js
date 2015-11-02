@@ -40,6 +40,7 @@ function append_images_from_flickr(flickr) {
   photos.forEach((photo) => {
     flickr_get_sizes(photo.id).then((aPhoto) => {
       var target = aPhoto.sizes.size[4];
+      // TODO need to filter out image height less than <max_height>
       var img = document.createElement("img");
       img.setAttribute("alt", photo.title);
       img.setAttribute("src", target.source);
