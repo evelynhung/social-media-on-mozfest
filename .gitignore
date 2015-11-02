@@ -1,0 +1,11 @@
+DS_Store
+*.rej
+*.log
+*.orig
+*.swp
+*.swn
+*.swo
+.svn
+*~
+
+consumer_token.js

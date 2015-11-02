@@ -1,0 +1,7 @@
+/*
+   1. Get your applicaion consumer key and secret from https://apps.twitter.com/.
+   2. Concatenate them by a colon character “:” into a single string.
+   3. Rename this file to `consumer_token.js`.
+ */
+
+const CONSUMER_TOKEN = '<your_consumer_key>:<your_consumer_secret>';
