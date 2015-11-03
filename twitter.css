@@ -1,0 +1,60 @@
+body {
+  background: url('img/background.png') no-repeat #247AB5;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+}
+#header {
+  height: 120px;
+  margin-top: 40px;
+}
+#header span {
+  background: white;
+  border-radius: 20px 20px 20px 0px;
+  margin-left: 250px;
+  font-size: 2.9em;
+  padding: 20px;
+}
+#header span strong {
+  color: #2FC2EF;
+  font-size: 1.3em;
+}
+#tweets_container {
+  margin: 0 80px;
+  overflow: hidden;
+}
+.tweet {
+  width: 420px;
+  background: white;
+  box-shadow: 5px 5px 5px #036;
+  margin: 10px;
+  border-radius: 5px;
+}
+.tweet > img {
+  width: 100%;
+}
+.tweet > div {
+  padding: 5px;
+}
+.tweet .title {
+  margin-bottom: 10px;
+}
+.tweet .title .gravatar {
+  width: 48px;
+  border-radius: 25px;
+  display: block;
+  float: left;
+}
+.tweet .title .user_info {
+  margin-left: 60px;
+}
+.tweet .title .user_info .user_name {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.tweet .title .user_info .user_id {
+  font-size: 1.3em;
+}
+.tweet .tweet_text {
+  font-size: 1.7em;
+}
